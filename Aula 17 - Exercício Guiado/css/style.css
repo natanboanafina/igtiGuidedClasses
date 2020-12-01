@@ -1,0 +1,65 @@
+body {
+	background-color: indigo;
+	padding: 10px;
+	color: white;
+}
+
+h1{
+	text-align: center;
+	margin-top: 10px;
+	margin-bottom: 50px;
+}
+
+h5, h6{
+	text-align: center;
+}
+
+h6{
+	margin-bottom: 30px;
+}
+
+img {
+	width: 50px;
+	height: 50px;
+	margin-right: 10px;
+	margin-left: 10px;
+	
+	border-radius: 50%;
+	display: inline-block;
+	justify-content: right;
+}
+
+.country-container {
+	display: flex;
+	align-content: center;
+	justify-content:space-evenly;
+}
+
+.country {
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+}
+.country-img{
+	display: inline-block;
+}
+
+.add {
+	border-radius: 50%;
+	background-color: lavenderblush;
+	color: brown;
+	font-weight: bold;
+}
+
+.country-list {
+	padding: 5px;
+	border: 1px solid grey;
+	width: 100%;
+	border-radius: 10px;
+	margin-right: 10px;
+	display: block;
+}
+
+#tabCountries, #tabFavorites{
+	margin-left: 10px
+}
